@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: nginx-container
-    image: httpd:latest
+    image: nginx:latest
     ports:
       - containerPort: 80
